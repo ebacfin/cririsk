@@ -12,15 +12,10 @@
 **首先，确保已经安装了
 Git。在终端或命令行中输入以下命令以检查是否已安装：**
 
-'''bash
-
-git \--version
-
-'''
 ```bash
-git add <file_name>
-git commit -m "提交描述信息"
+git \--version
 ```
+
 
 **如果已经安装，则会显示 Git
 版本信息。否则，请根据你的操作系统下载并安装 Git。**
@@ -31,9 +26,10 @@ git commit -m "提交描述信息"
 仓库。在项目文件夹中打开终端，并运行以下命令：**
 
 
+```bash
 
-**git init**
-
+git init
+```
 
 
 **这将在当前目录下创建一个新的 Git 仓库。**
@@ -44,16 +40,16 @@ git commit -m "提交描述信息"
 正确地跟踪你的文件。使用以下命令添加文件到暂存区：**
 
 
+```bash
+git add \<file_name\>
 
-**git add \<file_name\>**
-
-
+```
 **然后，提交这些更改到本地仓库：**
+```bash
 
 
-
-**git commit -m \"提交描述信息\"**
-
+git commit -m \"提交描述信息\"
+```
 
 
 ## **5. 创建分支**

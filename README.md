@@ -13,8 +13,14 @@
 Git。在终端或命令行中输入以下命令以检查是否已安装：**
 
 '''bash
+
 git \--version
+
 '''
+```bash
+git add <file_name>
+git commit -m "提交描述信息"
+```
 
 **如果已经安装，则会显示 Git
 版本信息。否则，请根据你的操作系统下载并安装 Git。**

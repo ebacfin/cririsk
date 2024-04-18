@@ -1,0 +1,179 @@
+max_incometype_1044T_cnt:                    variable                  bin   count  count_distr    good  \
+0  max_incometype_1044T_cnt      [-inf,311028.0)  351423     0.230191  338549   
+1  max_incometype_1044T_cnt  [311028.0,373646.0)  311028     0.203731  305347   
+2  max_incometype_1044T_cnt  [373646.0,490562.0)  373646     0.244748  363325   
+3  max_incometype_1044T_cnt       [490562.0,inf)  490562     0.321330  471444   
+
+     bad   badprob       woe    bin_iv  total_iv    breaks  is_special_values  
+0  12874  0.036634  0.158360  0.006221  0.077058  311028.0              False  
+1   5681  0.018265 -0.556503  0.049046  0.077058  373646.0              False  
+2  10321  0.027622 -0.133298  0.004087  0.077058  490562.0              False  
+3  19118  0.038972  0.222649  0.017703  0.077058       inf              False  
+mean_pmts_dpd_303P:              variable         bin   count  count_distr    good    bad  \
+0  mean_pmts_dpd_303P     missing  514070     0.336729  497926  16144   
+1  mean_pmts_dpd_303P  [-inf,0.5)  553833     0.362775  545551   8282   
+2  mean_pmts_dpd_303P   [0.5,1.5)  111434     0.072992  108585   2849   
+3  mean_pmts_dpd_303P   [1.5,inf)  347322     0.227505  326603  20719   
+
+    badprob       woe        bin_iv  total_iv   breaks  is_special_values  
+0  0.031404 -0.001084  3.955315e-07  0.293504  missing               True  
+1  0.014954 -0.759893  1.492316e-01  0.293504      0.5              False  
+2  0.025567 -0.212746  2.993956e-03  0.293504      1.5              False  
+3  0.059654  0.670125  1.412776e-01  0.293504      inf              False  
+lastrejectdate_50D:              variable               bin   count  count_distr    good    bad  \
+0  lastrejectdate_50D           missing  769046     0.503744  752845  16201   
+1  lastrejectdate_50D    [-inf,-1000.0)  215012     0.140838  209316   5696   
+2  lastrejectdate_50D  [-1000.0,-300.0)  237176     0.155356  228284   8892   
+3  lastrejectdate_50D   [-300.0,-100.0)  152297     0.099758  144731   7566   
+4  lastrejectdate_50D      [-100.0,inf)  153128     0.100303  143489   9639   
+
+    badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0  0.021066 -0.410967  0.070512  0.184162  missing               True  
+1  0.026492 -0.176262  0.004032  0.184162  -1000.0              False  
+2  0.037491  0.182380  0.005633  0.184162   -300.0              False  
+3  0.049679  0.476607  0.028484  0.184162   -100.0              False  
+4  0.062947  0.727378  0.075500  0.184162      inf              False  
+avgdpdtolclosure24_3658938P:                       variable         bin   count  count_distr    good  \
+0  avgdpdtolclosure24_3658938P     missing  467175     0.306011  453397   
+1  avgdpdtolclosure24_3658938P  [-inf,1.0)  763665     0.500220  748865   
+2  avgdpdtolclosure24_3658938P   [1.0,3.0)  167237     0.109544  159715   
+3  avgdpdtolclosure24_3658938P   [3.0,inf)  128582     0.084224  116688   
+
+     bad   badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0  13778  0.029492 -0.065876  0.001288   0.31098  missing               True  
+1  14800  0.019380 -0.496113  0.098267   0.31098      1.0              False  
+2   7522  0.044978  0.372260  0.018135   0.31098      3.0              False  
+3  11894  0.092501  1.144349  0.193290   0.31098      inf              False  
+maxdpdlast24m_143P:              variable         bin    count  count_distr    good    bad  \
+0  maxdpdlast24m_143P     missing   306019     0.200450  299314   6705   
+1  maxdpdlast24m_143P  [-inf,4.0)  1005073     0.658348  978490  26583   
+2  maxdpdlast24m_143P   [4.0,8.0)    81746     0.053546   78371   3375   
+3  maxdpdlast24m_143P   [8.0,inf)   133821     0.087656  122490  11331   
+
+    badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0  0.021910 -0.370821  0.023257  0.207852  missing               True  
+1  0.026449 -0.177920  0.019190  0.207852      4.0              False  
+2  0.041286  0.282760  0.004897  0.207852      8.0              False  
+3  0.084673  1.047332  0.160508  0.207852      inf              False  
+mean_pmts_dpd_1073P:               variable          bin   count  count_distr    good    bad  \
+0  mean_pmts_dpd_1073P      missing  263166     0.172380  254416   8750   
+1  mean_pmts_dpd_1073P  [-inf,0.03)  876256     0.573970  858401  17855   
+2  mean_pmts_dpd_1073P  [0.03,0.25)  132355     0.086696  128189   4166   
+3  mean_pmts_dpd_1073P   [0.25,inf)  254882     0.166954  237659  17223   
+
+    badprob       woe        bin_iv  total_iv   breaks  is_special_values  
+0  0.033249  0.057902  5.938739e-04  0.252515  missing               True  
+1  0.020376 -0.444969  9.277541e-02  0.252515     0.03              False  
+2  0.031476  0.001270  1.398125e-07  0.252515     0.25              False  
+3  0.067572  0.803228  1.591451e-01  0.252515      inf              False  
+pctinstlsallpaidlate1d_3546856L:                           variable          bin   count  count_distr    good  \
+0  pctinstlsallpaidlate1d_3546856L      missing  458738     0.300485  445339   
+1  pctinstlsallpaidlate1d_3546856L   [-inf,0.1)  560108     0.366885  550397   
+2  pctinstlsallpaidlate1d_3546856L   [0.1,0.24)  202406     0.132581  196521   
+3  pctinstlsallpaidlate1d_3546856L  [0.24,0.48)  179389     0.117504  170939   
+4  pctinstlsallpaidlate1d_3546856L   [0.48,inf)  126018     0.082545  115469   
+
+     bad   badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0  13399  0.029208 -0.075837  0.001668  0.278134  missing               True  
+1   9711  0.017338 -0.609562  0.103557  0.278134      0.1              False  
+2   5885  0.029075 -0.080544  0.000828  0.278134     0.24              False  
+3   8450  0.047104  0.420679  0.025434  0.278134     0.48              False  
+4  10549  0.083710  1.034848  0.146647  0.278134      inf              False  
+lastrejectreason_759M_cnt:                     variable                  bin   count  count_distr  \
+0  lastrejectreason_759M_cnt      [-inf,100000.0)  148883     0.097522   
+1  lastrejectreason_759M_cnt  [100000.0,300000.0)  424121     0.277810   
+2  lastrejectreason_759M_cnt       [300000.0,inf)  953655     0.624668   
+
+     good    bad   badprob       woe    bin_iv  total_iv    breaks  \
+0  139957   8926  0.059953  0.675452  0.061689  0.161086  100000.0   
+1  406167  17954  0.042332  0.308867  0.030703  0.161086  300000.0   
+2  932541  21114  0.022140 -0.360158  0.068694  0.161086       inf   
+
+   is_special_values  
+0              False  
+1              False  
+2              False  
+maxdbddpdtollast12m_3658940P:                        variable          bin   count  count_distr    good  \
+0  maxdbddpdtollast12m_3658940P      missing  705504     0.462123  683987   
+1  maxdbddpdtollast12m_3658940P  [-inf,-1.0)  163899     0.107358  161376   
+2  maxdbddpdtollast12m_3658940P   [-1.0,1.0)  354666     0.232315  347520   
+3  maxdbddpdtollast12m_3658940P    [1.0,4.0)  152209     0.099701  147132   
+4  maxdbddpdtollast12m_3658940P    [4.0,inf)  150381     0.098503  138650   
+
+     bad   badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0  21517  0.030499 -0.031277  0.000445  0.225811  missing               True  
+1   2523  0.015394 -0.730469  0.041321  0.225811     -1.0              False  
+2   7146  0.020149 -0.456451  0.039314  0.225811      1.0              False  
+3   5077  0.033355  0.061209  0.000384  0.225811      4.0              False  
+4  11731  0.078009  0.958101  0.144347  0.225811      inf              False  
+max_numberofoverdueinstlmax_1039L:                             variable         bin   count  count_distr    good  \
+0  max_numberofoverdueinstlmax_1039L     missing  262653     0.172044  253918   
+1  max_numberofoverdueinstlmax_1039L  [-inf,1.0)  749708     0.491078  734575   
+2  max_numberofoverdueinstlmax_1039L   [1.0,5.0)  159806     0.104677  155268   
+3  max_numberofoverdueinstlmax_1039L  [5.0,28.0)  210614     0.137957  202098   
+4  max_numberofoverdueinstlmax_1039L  [28.0,inf)  143878     0.094244  132806   
+
+     bad   badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0   8735  0.033257  0.058145  0.000598  0.227729  missing               True  
+1  15133  0.020185 -0.454595  0.082496  0.227729      1.0              False  
+2   4538  0.028397 -0.104847  0.001096  0.227729      5.0              False  
+3   8516  0.040434  0.261013  0.010640  0.227729     28.0              False  
+4  11072  0.076954  0.943349  0.132900  0.227729      inf              False  
+mean_pmts_overdue_1152A:                   variable            bin   count  count_distr    good    bad  \
+0  mean_pmts_overdue_1152A        missing  513987     0.336674  497846  16141   
+1  mean_pmts_overdue_1152A   [-inf,100.0)  498984     0.326847  491684   7300   
+2  mean_pmts_overdue_1152A  [100.0,400.0)  154079     0.100926  150225   3854   
+3  mean_pmts_overdue_1152A    [400.0,inf)  359609     0.235553  338910  20699   
+
+    badprob       woe        bin_iv  total_iv   breaks  is_special_values  
+0  0.031404 -0.001109  4.140364e-07  0.273871  missing               True  
+1  0.014630 -0.782143  1.411115e-01  0.273871    100.0              False  
+2  0.025013 -0.235204  5.008266e-03  0.273871    400.0              False  
+3  0.057560  0.632170  1.277508e-01  0.273871      inf              False  
+max_birth_259D:          variable                  bin   count  count_distr    good    bad  \
+0  max_birth_259D      [-inf,-21000.0)  350911     0.229856  344402   6509   
+1  max_birth_259D  [-21000.0,-18500.0)  167716     0.109858  163338   4378   
+2  max_birth_259D  [-18500.0,-10500.0)  785445     0.514486  759524  25921   
+3  max_birth_259D       [-10500.0,inf)  222587     0.145800  211401  11186   
+
+    badprob       woe    bin_iv  total_iv    breaks  is_special_values  
+0  0.018549 -0.540805  0.052617  0.101662  -21000.0              False  
+1  0.026104 -0.191411  0.003683  0.101662  -18500.0              False  
+2  0.033002  0.050180  0.001326  0.101662  -10500.0              False  
+3  0.050255  0.488725  0.044036  0.101662       inf              False  
+lastcancelreason_561M_cnt:                     variable                 bin    count  count_distr  \
+0  lastcancelreason_561M_cnt      [-inf,40000.0)   151809     0.099439   
+1  lastcancelreason_561M_cnt  [40000.0,320000.0)   300797     0.197030   
+2  lastcancelreason_561M_cnt      [320000.0,inf)  1074053     0.703532   
+
+      good    bad   badprob       woe    bin_iv  total_iv    breaks  \
+0   146604   5205  0.034287  0.089704  0.000835  0.130506   40000.0   
+1   284291  16506  0.054874  0.581545  0.088195  0.130506  320000.0   
+2  1047770  26283  0.024471 -0.257678  0.041476  0.130506       inf   
+
+   is_special_values  
+0              False  
+1              False  
+2              False  
+max_sex_738L:        variable bin   count  count_distr    good    bad   badprob       woe  \
+0  max_sex_738L   1  952776     0.624092  927562  25214  0.026464 -0.177341   
+1  max_sex_738L   0  573883     0.375908  551103  22780  0.039695  0.241780   
+
+     bin_iv  total_iv breaks  is_special_values  
+0  0.018078  0.042725      1              False  
+1  0.024647  0.042725      0              False  
+mean_employedfrom_700D:                  variable                bin   count  count_distr    good  \
+0  mean_employedfrom_700D            missing  559169     0.366270  544702   
+1  mean_employedfrom_700D     [-inf,-6200.0)  127221     0.083333  124937   
+2  mean_employedfrom_700D  [-6200.0,-3200.0)  328018     0.214860  318909   
+3  mean_employedfrom_700D  [-3200.0,-2000.0)  236886     0.155166  228062   
+4  mean_employedfrom_700D  [-2000.0,-1400.0)  115776     0.075836  110696   
+5  mean_employedfrom_700D      [-1400.0,inf)  159589     0.104535  151359   
+
+     bad   badprob       woe    bin_iv  total_iv   breaks  is_special_values  
+0  14467  0.025872 -0.200550  0.013425  0.089514  missing               True  
+1   2284  0.017953 -0.574062  0.021185  0.089514  -6200.0              False  
+2   9109  0.027770 -0.127824  0.003308  0.089514  -3200.0              False  
+3   8824  0.037250  0.175677  0.005204  0.089514  -2000.0              False  
+4   5080  0.043878  0.346342  0.010731  0.089514  -1400.0              False  
+5   8230  0.051570  0.515950  0.035661  0.089514      inf              False  
